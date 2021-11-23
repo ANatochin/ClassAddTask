@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/addclasstask",
+  "type": "project",
+  "description": "home task for classes",
+  "license": "proprietary",
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Structures\\": "structures/",
+      "Animals\\": "animals/",
+      "Cars\\": "cars/",
+      "Calculator\\": "calculator/"
+    }
+  },
+  "require": {
+  }
+}
